@@ -1,0 +1,89 @@
+
+Live Task Session:
+
+https://jsonviewer.stack.hu/
+
+[
+{
+	"fName":"Anna",
+	"lName": "Suresh"
+	"phone":987654321,
+	"role":"Manage_yearsr"
+	"age_years": 40,
+	"dailyWorkingHours": 10,
+	"salary_Year":3450000,
+	"totalWorkingDays":262,
+	"leaves":"10",
+},
+{
+	"fName":"Danny",
+	"lName": "Mahesh"
+	"phone":987653421,
+	"role":"Employee"
+	"age_years": 24,
+	"dailyWorkingHours": 8,
+	"salary_Year":1004123,
+	"totalWorkingDays":262,
+	"leaves":"20",
+},
+{
+	"fName":"Ashoka",
+	"lName": "Raj"
+	"phone":9863445421,
+	"role":"Employee"
+	"age_years": 26,
+	"dailyWorkingHours": 8,
+	"salary_Year":1550032,
+	"totalWorkingDays":262,
+	"leaves":"100",
+},
+{
+	"fName":"Ashoka",
+	"lName": "Raj"
+	"phone":9863445421,
+	"role":"Employee"
+	"age_years": 26,
+	"dailyWorkingHours": 8,
+	"salary_Year":1500431,
+	"totalWorkingDays":262,
+	"leaves":"100",
+},
+
+{
+	"fName":"Dharma",
+	"lName": "Raj"
+	"phone":9999999999,
+	"role":"CEO"
+	"age_years": 120,
+	"dailyWorkingHours": 14,
+	"salary_Year":5004321,
+	"totalWorkingDays":262,
+	"leaves":"1",
+}
+
+]
+
+Print the Following Details
+
+Full Name : fName+lName
+Email : fName.lName@gmail.com
+Age in Months : *********
+Age in Weeks : *********
+No of days Present : ********* days
+Total Hours Worked : *********
+Monthly Salary : ₹********* days
+Salary Deduction/Day : ₹****** Rupees
+Total Deducted Salary : ₹****** Rupees
+Total Salary After Deductions: ₹****** Rupees
+
+
+****Example****
+
+Total_Days = 10
+Total_Salary = 10000
+EachDay_salary = Total_Salary/Total_Days = 1000
+Leaves = 2
+Deducted = Leaves * EachDay_salary = 2000
+Final_Paid_Salary =  Total_Salary - Deducted = 8000
+
+****Example****
